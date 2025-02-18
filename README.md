@@ -1,10 +1,10 @@
 # msmailprobe 2.0
 
-A BETTER Office 365 and Exchange Enumeration
+A **BETTER** Office 365 and Exchange Enumeration
 
 It is widely known that OWA (Outlook Webapp) is vulnerable to time-based user enumeration attacks. This tool leverages all known, and even some lesser-known services exposed by default Exchange installations to enumerate users. It also targets Office 365 for error-based user enumeration. 
 
-Moreover this version os the script fixes some of the most common issues of the original.
+Moreover this version of the script **fixes** some of the most common issues of the original.
 
 ## Motivation
 
