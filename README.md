@@ -10,17 +10,17 @@ Moreover this version of the script **fixes** some of the most common issues of 
 
 Original `msmailprobe` had some arguable features (not to mention it was a single-file app) which this script aims to fix:
 
-1) RATE LIMITS. You can now change maximum requests the script sends per minute or per second (`--rpm`, `--rps` respectfully).
+1) **RATE LIMITS**. You can now change maximum requests the script sends per minute or per second (`--rpm`, `--rps` respectfully).
 
-2) The script now updates the output file (specified by `-o` flag) on EVERY found email. No more losing your whole progress because of accidental Ctrl+C.
+2) The script now updates the output file (specified by `-o` flag) on *EVERY* found email. No more losing your whole progress because of accidental Ctrl+C.
 
-3) No `log.Fatal()` when receiving timeout (and losing your progress). Just wait for a reasonable amount of time (1 hour by default).
+3) **No** `log.Fatal()` when receiving timeout (and losing your progress). Just wait for a reasonable amount of time (1 hour by default).
 
 4) Random `User-Agent` header on every request to reduce likelihood of a ban.
 
-5) Also auto-throttling when receiving 429 response status code (in case Exchange is protected by some kind of WAF).
+5) Also *auto-throttling* when receiving 429 response status code (in case Exchange is protected by some kind of WAF).
 
-6) BETTER logging which includes timestamps and an optional debug log.
+6) **BETTER** logging which includes timestamps and an optional debug log.
 
 ###### Bonus
 
