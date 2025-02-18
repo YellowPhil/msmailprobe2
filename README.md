@@ -8,7 +8,7 @@ Moreover this version os the script fixes some of the most common issues of the 
 
 ## Motivation
 
-Original `msmailprobe` had some arguable featuers (not to mention it was a single-file app) which this script aims to fix:
+Original `msmailprobe` had some arguable features (not to mention it was a single-file app) which this script aims to fix:
 
 1) RATE LIMITS. You can now change maximum requests the script sends per minute or per second (`--rpm`, `--rps` respectfully).
 
@@ -18,9 +18,9 @@ Original `msmailprobe` had some arguable featuers (not to mention it was a singl
 
 4) Random `User-Agent` header on every request to reduce likelihood of a ban.
 
-5) Also auto-throttling when receiving 429 response status code (in case Exchange is procted with some king of WAF).
+5) Also auto-throttling when receiving 429 response status code (in case Exchange is protected by some kind of WAF).
 
-6) BETTER logging that includes timestamps and an optional debug log.
+6) BETTER logging which includes timestamps and an optional debug log.
 
 ###### Bonus
 
